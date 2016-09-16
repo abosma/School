@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>05c057ff-9b26-4820-b842-278107401929</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>Les4\Final Assignment.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>schoolIntroductieOpdracht</Name>
+    <RootNamespace>schoolIntroductieOpdracht</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Les2\FinalAssignment.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Les2\Opdracht 2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Les2\Opdracht 1.py" />
+    <Compile Include="Les2\Opdracht 3 en 4.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Les2\Opdracht 5.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Les3\Final Assignment.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Les3\Opdracht 1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Les3\Opdracht 2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Les3\Opdracht 3.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Les3\Opdracht 4.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Les3\Opdracht 5.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Les3\Opdracht 6.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Les4\Final Assignment.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Les2\" />
+    <Folder Include="Les3\" />
+    <Folder Include="Les4\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Les4\Annuleringen.txt" />
+    <Content Include="Les4\Treinritten.txt" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>
+  </PropertyGroup>
+  <Import Condition="Exists($(PtvsTargetsFile))" Project="$(PtvsTargetsFile)" />
+  <Import Condition="!Exists($(PtvsTargetsFile))" Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
