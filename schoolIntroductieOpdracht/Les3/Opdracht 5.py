@@ -3,7 +3,7 @@ import math
 def kwadraten_som(grondGetallen):
     r = grondGetallen[:]
     for idx,item in enumerate(grondGetallen):
-        if item < 0: 
+        if item < 0:
            r.remove(item)
         else:
            r[idx] = math.pow(item,2);

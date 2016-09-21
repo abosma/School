@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>05c057ff-9b26-4820-b842-278107401929</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Les4\Final Assignment.py</StartupFile>
+    <StartupFile>Les5\Final Assignment.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -59,11 +59,36 @@
     <Compile Include="Les4\Final Assignment.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Les5\Final Assignment.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Les5\Opdracht 1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Les5\Opdracht 2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Les5\Opdracht 3.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Les5\Opdracht 4.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Les5\Opdracht 5.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Les5\Opdracht 6.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Les5\Opdracht 7.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Les2\" />
     <Folder Include="Les3\" />
     <Folder Include="Les4\" />
+    <Folder Include="Les5\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Les4\Annuleringen.txt" />
