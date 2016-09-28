@@ -10,3 +10,4 @@ for i in annuleringen:
             treinritten.remove(y);
 
 print('\n'.join(treinritten));
+
