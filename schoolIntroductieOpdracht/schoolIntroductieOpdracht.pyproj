@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>05c057ff-9b26-4820-b842-278107401929</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Les6\Opdracht 3.py</StartupFile>
+    <StartupFile>Les4\Opdracht 4.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -59,6 +59,18 @@
     <Compile Include="Les4\Final Assignment.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Les4\Opdracht 1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Les4\Opdracht 2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Les4\Opdracht 3.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Les4\Opdracht 4.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Les5\Final Assignment.py">
       <SubType>Code</SubType>
     </Compile>
@@ -92,6 +104,12 @@
     <Compile Include="Les6\Opdracht 3.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Les6\Opdracht 4.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Les6\Opdracht 5.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Les2\" />
@@ -102,6 +120,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Les4\Annuleringen.txt" />
+    <Content Include="Les4\kaartnummers.txt" />
     <Content Include="Les4\Treinritten.txt" />
     <Content Include="Les6\TickerFile.txt" />
   </ItemGroup>
