@@ -47,8 +47,12 @@ def nieuwe_kluis():
 
     if vrijeKluis == []:
         print("Er zijn geen kluizen beschikbaar");
-    
-    elif vrijeKluis != []:
+
+    else:
+        print("Kluis " + vrijeKluis[0] + "is beschikbaar");
+        print("Jouw code is " + str(code));
+
+    if vrijeKluis != []:
         with open("Les7/kluizen.csv", "w", newline="") as myCSVFile:
             writer = csv.writer(myCSVFile, delimiter=";")
 
@@ -56,20 +60,6 @@ def nieuwe_kluis():
 
             for key, value in kluisDict.items():
                 writer.writerow([key, value])
-
-    else:
-        print("Kluis" + vrijeKluis[0] + "is beschikbaar");
-        print("Jouw code is " + code);
-
-    print("1: Ik wil een nieuwe kluis\n" + 
-              "2: Ik wil mijn kluis openen\n" + 
-              "3: Ik geef mijn kluis terug\n" + 
-              "4: Ik wil weten hoeveel kluizen nog vrij zijn\n" + 
-              "5: Ik wil stoppen\n")
-
-    keuze = int(input("Kies een van de bovenstaande opties: "))
-
-    optieMenu(keuze)
 
 
 def kluis_openen():
@@ -84,16 +74,6 @@ def kluis_openen():
                 incorrecteCode = incorrecteCode + 1
     if incorrecteCode == 13:
         print("Code onjuist")
-    
-    print("1: Ik wil een nieuwe kluis\n" + 
-              "2: Ik wil mijn kluis openen\n" + 
-              "3: Ik geef mijn kluis terug\n" + 
-              "4: Ik wil weten hoeveel kluizen nog vrij zijn\n" + 
-              "5: Ik wil stoppen\n")
-
-    keuze = int(input("Kies een van de bovenstaande opties: "))
-
-    optieMenu(keuze)
 
 
 def kluis_teruggeven():
@@ -117,15 +97,7 @@ def aantal_kluizen_vrij():
             if row[1] == "":
                 y = y + 1
     print("Aantal vrije kluisjes is:" + y)
-    print("1: Ik wil een nieuwe kluis\n" + 
-              "2: Ik wil mijn kluis openen\n" + 
-              "3: Ik geef mijn kluis terug\n" + 
-              "4: Ik wil weten hoeveel kluizen nog vrij zijn\n" + 
-              "5: Ik wil stoppen\n")
 
-    keuze = int(input("Kies een van de bovenstaande opties: "))
-
-    optieMenu(keuze)
 
 
 print("1: Ik wil een nieuwe kluis\n" + 
