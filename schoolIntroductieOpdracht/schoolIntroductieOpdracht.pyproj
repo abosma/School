@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>05c057ff-9b26-4820-b842-278107401929</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Les7\Final Assignment.py</StartupFile>
+    <StartupFile>Les8\Opdracht 3H.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -126,6 +126,24 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Les8\Final Assignment.py" />
+    <Compile Include="Les8\Opdracht 1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Les8\Opdracht 2.3.py" />
+    <Compile Include="Les8\Opdracht 2.2.py" />
+    <Compile Include="Les8\Opdracht 2.1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Les8\Opdracht 3H.py" />
+    <Compile Include="Les8\Opdracht 3G.py" />
+    <Compile Include="Les8\Opdracht 3F.py" />
+    <Compile Include="Les8\Opdracht 3E.py" />
+    <Compile Include="Les8\Opdracht 3D.py" />
+    <Compile Include="Les8\Opdracht 3C.py" />
+    <Compile Include="Les8\Opdracht 3B.py" />
+    <Compile Include="Les8\Opdracht 3A.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Les2\" />
@@ -145,6 +163,7 @@
     <Content Include="Les7\inloggers.csv" />
     <Content Include="Les7\kluizen.csv" />
     <Content Include="Les7\scoreFile.csv" />
+    <Content Include="Les8\artikels.xml" />
     <Content Include="Les8\treinstations.xml" />
   </ItemGroup>
   <PropertyGroup>
